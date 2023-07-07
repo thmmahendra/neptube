@@ -48,3 +48,61 @@ nav {
 .nav-left .logo {
     width: 130px;
 }
+
+.nav-middle .mic-icon {
+    width: 15px;
+}
+
+.nav-middle .search-box {
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-middle .search-box img {
+    width: 15px;
+}
+
+/* ----------sidebar----------------- */
+
+.sidebar {
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+
+.shortcut-links a img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.shortcut-links a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.shortcut-links a:first-child {
+    color: #ed3833;
+}
+
+.sidebar hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
